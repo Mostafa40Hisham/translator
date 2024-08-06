@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Translator</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container d-flex flex-column justify-content-evenly align-items-center vh-100">
+    <div class="w-75 mb-4 d-flex gap-3">
+      <textarea id="inputText" class="form-control mb-2" placeholder="Enter your text" rows="5"></textarea>
+      <textarea id="resultText" class="form-control" placeholder="Translated text" rows="5" readonly></textarea>
+    </div>
+    <div class="w-75 mb-4 d-flex gap-3">
+      <select id="languageSelect1" class="form-control mb-2">
+
+      </select>
+      <select id="languageSelect2" class="form-control mb-2">
+
+      </select>
+    </div>
+    <div>
+      <button id="translateButton" class="btn btn-primary">Translate</button>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
